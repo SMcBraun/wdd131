@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,16 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Sinalaua McBraun</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamental. Sinalaua McBraun. Home page assignment.">
     <meta name="author" content="Sinalaua McBraun">
+
+    <!--- Google fonts (ADD THESE HERE)--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+
+
 
     <link rel="stylesheet" href="styles/base.css">
 
@@ -19,8 +29,8 @@
         <nav>
             <a href="https://www.linkedin.com/in/sinamcbraun">LinkedIn</a>
             <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27" Ether
-                12:27>Scripture</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a>
             <a href="#">Final Project</a>
         </nav>
     </header>
@@ -28,15 +38,45 @@
     <main>
         <h1>Sinalaua McBraun</h1>
 
-        <section class=" card">
+        <section class="card about">
             <h2>About Me</h2>
-            <img src="images/profile.jpg alt=" My profile photo">
-            <p>Write a short paragraph about yourself here.</p>
+
+            <div class="about-content">
+
+                <p>Sina (see-nuh) is a lot easier to pronouce. I'm an older student transitioning into a new
+                    career path. I hope to adapt well to the pace of the program and build strong foundational skills
+                    in programming and software design. My goal is to expand my understanding of data management and
+                    software development to further elevate my professional skill set and open new opportunities.
+                </p>
+                <img src="images/profile.jpg" alt="My profile image">
+
+                <div class="country">
+                    <h3>United States of America</h3>
+
+                    <div class="country-row">
+                        <img src="images/usa-flag.jpg" alt="USA Flag" class="flag-img">
+                    </div>
+
+                    <p> The United States is often recognized for its culturea diversity, individual freedoms,
+                        innovation and opportunities for personal growth. People from many different backgrounds,
+                        beliefs and cultures live together here, which creates a unique mix of perspectives and ideas.
+                        The country is also
+                        well known for it's influence in technology,education, business, and entertainment, along with
+                        the value it
+                        places on indepedence and self improvement.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
         </section>
 
-        <section class="card">
+        <section class="card resources">
             <h2>Web Resources</h2>
-            <img src="images/resources.jpg." alt="Web development resources">
+            <img src="images/resources.jpg" alt="Web development resources">
             <ul>
 
                 <li>MDN Web Docs</li>
@@ -48,7 +88,7 @@
 
     <footer>
         <p>
-            &copy; <span id="currentyear"></span> Sinalaua McBraun, Hawaii, USA
+            &copy; &#127802<span id="currentyear"></span> Sinalaua McBraun, USA &#127802;
         </p>
         <p id="lastModified"></p>
     </footer>
