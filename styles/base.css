@@ -23,12 +23,10 @@ main {
     width: 160px;
     height: auto;
     margin-right: 10px;
-    margin-right: 1rem;
+    padding-right: 1rem;
 }
 
-.card {
-    position: relative;
-}
+
 
 .country-info {
     display: grid;
@@ -162,12 +160,10 @@ nav a:hover {
 
 .card {
     border: 2px solid #1e5aa8;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 6px;
     background: white;
 }
-
-
 
 .card ul {
     padding: 1.2 rem;
