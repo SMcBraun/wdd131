@@ -23,6 +23,7 @@ main {
     width: 160px;
     height: auto;
     margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .card {
