@@ -17,16 +17,14 @@ main {
     grid-template-columns: 1fr 160px;
     grid: 1rem;
     align-items: start;
-}
-
-.about-content img {
-    width: 160px;
-    height: auto;
-    margin-right: 10px;
     padding-right: 1rem;
 }
 
 
+
+.card {
+    position: relative;
+}
 
 .country-info {
     display: grid;
@@ -160,10 +158,12 @@ nav a:hover {
 
 .card {
     border: 2px solid #1e5aa8;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 6px;
     background: white;
 }
+
+
 
 .card ul {
     padding: 1.2 rem;
@@ -190,24 +190,9 @@ footer {
 }
 
 .country-content img {
-    width: 140px;
-    height: auto;
-    display: inline-block;
-    margin-right: 1rem;
-    vertical-align: top;
-}
-
-.about-content img {
     width: 160px;
     height: auto;
     display: inline-block;
     margin-left: 1rem;
     vertical-align: top;
-}
-
-.country-content img {
-    width: 140px;
-    height: auto;
-    display: inline-block;
-    justify-self: start;
 }
