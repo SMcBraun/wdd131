@@ -22,8 +22,8 @@ main {
 .about-content img {
     width: 160px;
     height: auto;
+    margin-right: 10px;
 }
-
 
 .card {
     position: relative;
