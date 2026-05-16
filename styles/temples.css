@@ -15,25 +15,31 @@ h1 {
 }
 
 #menu {
+    display: block;
     font-size: 2rem;
     background: none;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 #menu::before {
-    content: "=";
+    content: "☰";
 
 }
 
 #menu.open::before {
-    content: "X";
+    content: "˟";
 }
 
-.nav {
+.navigation {
     display: flex;
     flex-direction: column;
 
+}
+
+.navigation.open {
+    display: flex;
 }
 
 .navigation a {
@@ -44,7 +50,7 @@ h1 {
 }
 
 .navigation a:hover {
-    background-color: gray;
+    background-color: #ffffff33;
 }
 
 .open a {

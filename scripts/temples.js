@@ -8,4 +8,5 @@ hamButton.addEventListener('click', () => {
 
 document.querySelector('#year').textContent = new Date().getFullYear();
 
-document.querySelector('#lastModified').textContent = `Last Modified: ${document.lastModified}`;
+document.querySelector('#lastModified').textContent =
+    `Last Modified: ${document.lastModified}`;
