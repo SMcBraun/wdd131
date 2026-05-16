@@ -39,7 +39,7 @@ h1 {
 }
 
 /* NAVIGATION MOBILE */
-.navigation {
+.nav {
     display: flex;
     flex-direction: column;
 
