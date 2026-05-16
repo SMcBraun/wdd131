@@ -9,6 +9,9 @@ header {
     background-color: navy;
     color: white;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -23,6 +26,7 @@ h1 {
     border: none;
     color: white;
     cursor: pointer;
+    line-height: 1;
 }
 
 #menu::before {
@@ -34,8 +38,8 @@ h1 {
     content: "X";
 }
 
-/* NAVIGATION MOBILE FIRST */
-.nav {
+/* NAVIGATION MOBILE */
+.navigation {
     display: flex;
     flex-direction: column;
 
@@ -53,34 +57,37 @@ h1 {
     background-color: #ffffff33;
 }
 
-/* WHEN MENU IS OPEN */
+/* OPEN MENU */
 .navigation.open a {
     display: block;
 }
 
 
-
-.open a {
-    display: block;
-}
-
-
+/* MAIN LAYOUT */
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
 }
 
+/* GALLERY MOBILE */
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-figure img {
+.gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.gallery img {
     width: 100%;
     height: auto;
+    display: block;
 }
+
 
 footer {
     background-color: navy;
