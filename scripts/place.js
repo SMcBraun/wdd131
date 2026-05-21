@@ -12,24 +12,17 @@ function calculateWindChill(temp, speed) {
 const windChill = document.querySelector("#windchill");
 
 if (temperature <= 10 && windSpeed > 4.8) {
-    windChill.textContent = ${ calculatorWindChill(temperature, windSpeed) }°C;
+    windChill.textContent = ${ calculatorWindChill(temperature, windSpeed) } °C;
 } else {
     windChill.textContent = "N/A";
-
 }
 
 // Footer year
-document.getElementById("year").textContent = new Date().getFullYear();
-
-//Last modified date
-document.getElementById("lastModified").textContent =
-    Last Modified: $(document.lastModified} ;
-
-
-
 document.querySelector("#year").textContent =
     new Date().getFullYear();
 
+
+//Last modified date
 document.querySelector("#lastModified").textContent =
     Last Modified: ${ document.lastModified };
 
