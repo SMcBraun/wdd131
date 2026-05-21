@@ -1,0 +1,97 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+
+}
+
+/* HEADER */
+header {
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* HAMBURGER BUTTON */
+#menu {
+    display: block;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+}
+
+#menu::before {
+    content: "☰";
+
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+/* NAVIGATION MOBILE */
+.nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation a {
+    display: none;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+.navigation a:hover {
+    background-color: #ffffff33;
+}
+
+/* OPEN MENU */
+.navigation.open a {
+    display: block;
+}
+
+
+/* MAIN LAYOUT */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* GALLERY MOBILE */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
