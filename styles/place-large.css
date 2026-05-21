@@ -14,7 +14,7 @@ main {
     width: 300px;
     padding: 1rem;
 
-    box-shadow: 0 4 px 10px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
 }
 
 .weather {
@@ -28,7 +28,7 @@ main {
     padding: 1rem;
 
 
-    box-shadow: 0 4 px 10px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
 }
 
 .weather h2::after {
