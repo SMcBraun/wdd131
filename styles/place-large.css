@@ -1,40 +1,39 @@
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
 
-main {
-    position: relative;
-}
+    main {
+        position: relative;
+        max-width: 1200px;
+    }
 
-.data {
-    position: absolute;
-    top: 50px;
-    left: 30px;
+    picture img {
+        height: 700px;
+        object-fit: cover;
+    }
 
-    background-color: rgba(255, 255, 255, 0.9);
+    .data {
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        width: 300px;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+    }
 
-    width: 300px;
-    padding: 1rem;
+    .weather {
+        position: absolute;
+        bottom: 50px;
+        right: 30px;
+        width: 300px;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+    }
 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
-}
+    .weather-icon {
+        display: none;
+    }
 
-.weather {
-    position: absolute;
-    bottom: 50px;
-    right: 30px;
-
-    background-color: rgba(255, 255, 255, 0.9);
-
-    width: 300px;
-    padding: 1rem;
-
-
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
-}
-
-.weather h2::after {
-    content: "🌥️";
-}
-
-pciture img {
-    height: 700px;
-}
+    .weather-heading::after {
+        content: " 🌥️";
+    }
