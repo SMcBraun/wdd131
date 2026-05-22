@@ -1,5 +1,4 @@
 @media (min-width: 768px) {
-
     main {
         position: relative;
         max-width: 1200px;
@@ -17,7 +16,7 @@
         width: 300px;
         padding: 1rem;
         background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .weather {
@@ -27,7 +26,7 @@
         width: 300px;
         padding: 1rem;
         background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .weather-icon {
@@ -37,3 +36,4 @@
     .weather-heading::after {
         content: " 🌥️";
     }
+}
