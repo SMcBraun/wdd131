@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    border-bottom: 1px solid #bbb;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr(odd) {
+    background-color: #bed;
+}
+
+
+
+tr:nth-child(odd) {
+    background-color: #bed;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+
+}

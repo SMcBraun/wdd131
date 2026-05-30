@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", Arila, sans-serif;
+    margin: 0;
+
+}
+
+
+main {
+    max-width: 1100px;
+    mar gin: 0 auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+
+}
+
+.gallery section {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    text-align: center;
+
+    .gallery h3 {
+
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .gallery p {
+        margin: 0.25rem;
+    }
+
+    .gallery p strong {
+        color: #4b006e;
+        font-variant: small-caps;
+    }
+
+    .gallery img {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 1rem auto;
+        box-shadow: 0 0 15px #555;
+
+    }
