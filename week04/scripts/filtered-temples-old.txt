@@ -67,56 +67,50 @@ const temples = [
   location: "Laie, Hawaii, United States",
   dedicated: "1919, November, 27",
   area: 42100,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-56437-main.jpg"
+  imageUrl: "laie-hawaii.jpg"
 },
 {
   templeName: "Apia Samoa",
   location: "Apia, Samoa",
   dedicated: "1983, August, 5",
   area: 18691,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/apia-samoa-temple/apia-samoa-temple-40545-main.jpg"
-},
+  imageUrl: "apia-samoa.jpg"
+}
+
 {
   templeName: "Hamilton New Zealand",
   location: "Hamilton, New Zealand",
   dedicated: "1958, April, 20",
   area: 44612,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-11110-main.jpg"
+  imageUrl: "hamilton-new-zealand.jpg"
 },
 {
   templeName: "Suva Fiji",
   location: "Suva, Fiji",
   dedicated: "2000, June, 18",
   area: 12755,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/suva-fiji-temple/suva-fiji-temple-40554-main.jpg"
+  imageUrl: "suva-fiji.jpg"
 },
 {
   templeName: "Nuku'alofa Tonga",
   location: "Nuku'alofa, Tonga",
   dedicated: "1983, August, 9",
   area: 14972,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/nukualofa-tonga-temple/nukualofa-tonga-temple-40550-main.jpg"
+  imageUrl: "nuku'alofa-tonga.jpg"
 },
 {
   templeName: "Papeete Tahiti",
   location: "Papeete, Tahiti, French Polynesia",
   dedicated: "1983, October, 27",
   area: 9944,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/papeete-tahiti-temple/papeete-tahiti-temple-40552-main.jpg"
+  imageUrl: "papeete-tahiti.jpg"
 },
 {
   templeName: "Rome Italy",
   location: "Rome, Italy",
   dedicated: "2019, March, 10",
   area: 41010,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-49179-main.jpg"
+  imageUrl: "rome-italy.jpg"
     
 },
 {
@@ -126,8 +120,7 @@ const temples = [
   location: "Frankfurt, Germany",
   dedicated: "1987, August, 28",
   area: 32395,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/frankfurt-germany-temple/frankfurt-germany-temple-8037-main.jpg"
+  imageUrl: "frankfurt-germany.jpg"
 }
 
 ];

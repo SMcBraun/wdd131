@@ -10,7 +10,7 @@ const temples = [
     dedicated: "2005, August, 7",
     area: 11500,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
   },
   {
     templeName: "Manti Utah",
@@ -18,7 +18,7 @@ const temples = [
     dedicated: "1888, May, 21",
     area: 74792,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
   },
   {
     templeName: "Payson Utah",
@@ -26,7 +26,7 @@ const temples = [
     dedicated: "2015, June, 7",
     area: 96630,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
   },
   {
     templeName: "Yigo Guam",
@@ -34,7 +34,7 @@ const temples = [
     dedicated: "2020, May, 2",
     area: 6861,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
   },
   {
     templeName: "Washington D.C.",
@@ -42,7 +42,7 @@ const temples = [
     dedicated: "1974, November, 19",
     area: 156558,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
   },
   {
     templeName: "Lima Perú",
@@ -50,7 +50,7 @@ const temples = [
     dedicated: "1986, January, 10",
     area: 9600,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
   },
   {
     templeName: "Mexico City Mexico",
@@ -58,77 +58,70 @@ const temples = [
     dedicated: "1983, December, 2",
     area: 116642,
     imageUrl:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   }
 
-,
-{
-  templeName: "Laie Hawaii",
-  location: "Laie, Hawaii, United States",
-  dedicated: "1919, November, 27",
-  area: 42100,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-56437-main.jpg"
-},
-{
-  templeName: "Apia Samoa",
-  location: "Apia, Samoa",
-  dedicated: "1983, August, 5",
-  area: 18691,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/apia-samoa-temple/apia-samoa-temple-40545-main.jpg"
-},
-{
-  templeName: "Hamilton New Zealand",
-  location: "Hamilton, New Zealand",
-  dedicated: "1958, April, 20",
-  area: 44612,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-11110-main.jpg"
-},
-{
-  templeName: "Suva Fiji",
-  location: "Suva, Fiji",
-  dedicated: "2000, June, 18",
-  area: 12755,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/suva-fiji-temple/suva-fiji-temple-40554-main.jpg"
-},
-{
-  templeName: "Nuku'alofa Tonga",
-  location: "Nuku'alofa, Tonga",
-  dedicated: "1983, August, 9",
-  area: 14972,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/nukualofa-tonga-temple/nukualofa-tonga-temple-40550-main.jpg"
-},
-{
-  templeName: "Papeete Tahiti",
-  location: "Papeete, Tahiti, French Polynesia",
-  dedicated: "1983, October, 27",
-  area: 9944,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/papeete-tahiti-temple/papeete-tahiti-temple-40552-main.jpg"
-},
-{
-  templeName: "Rome Italy",
-  location: "Rome, Italy",
-  dedicated: "2019, March, 10",
-  area: 41010,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-49179-main.jpg"
-    
-},
-{
+  ,
+  {
+    templeName: "Laie Hawaii",
+    location: "Laie, Hawaii, United States",
+    dedicated: "1919, November, 27",
+    area: 42100,
+    imageUrl: "laie-hawaii.jpg"
+  },
+  {
+    templeName: "Apia Samoa",
+    location: "Apia, Samoa",
+    dedicated: "1983, August, 5",
+    area: 18691,
+    imageUrl: "apia-samoa.jpg"
+  },
+
+  {
+    templeName: "Hamilton New Zealand",
+    location: "Hamilton, New Zealand",
+    dedicated: "1958, April, 20",
+    area: 44612,
+    imageUrl: "hamilton-new-zealand.jpg"
+  },
+  {
+    templeName: "Suva Fiji",
+    location: "Suva, Fiji",
+    dedicated: "2000, June, 18",
+    area: 12755,
+    imageUrl: "suva-fiji.jpg"
+  },
+  {
+    templeName: "Nuku'alofa Tonga",
+    location: "Nuku'alofa, Tonga",
+    dedicated: "1983, August, 9",
+    area: 14972,
+    imageUrl: "nuku'alofa-tonga.jpg"
+  },
+  {
+    templeName: "Papeete Tahiti",
+    location: "Papeete, Tahiti, French Polynesia",
+    dedicated: "1983, October, 27",
+    area: 9944,
+    imageUrl: "papeete-tahiti.jpg"
+  },
+  {
+    templeName: "Rome Italy",
+    location: "Rome, Italy",
+    dedicated: "2019, March, 10",
+    area: 41010,
+    imageUrl: "rome-italy.jpg"
+
+  },
+  {
 
 
-  templeName: "Frankfurt Germany",
-  location: "Frankfurt, Germany",
-  dedicated: "1987, August, 28",
-  area: 32395,
-  imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/frankfurt-germany-temple/frankfurt-germany-temple-8037-main.jpg"
-}
+    templeName: "Frankfurt Germany",
+    location: "Frankfurt, Germany",
+    dedicated: "1987, August, 28",
+    area: 32395,
+    imageUrl: "frankfurt-germany.jpg"
+  }
 
 ];
 
@@ -137,67 +130,69 @@ const temples = [
 createTempleCards(temples);
 
 function createTempleCards(filteredTemples) {
-    document.querySelector(".gallery").innerHTML = "";
+  document.querySelector(".gallery").innerHTML = "";
 
-    filteredTemples.forEach((temple) => {
-        let card = document.createElement("section");
+  filteredTemples.forEach((temple) => {
+    let card = document.createElement("section");
 
-        let name = document.createElement("h3");
-        let location = document.createElement("p");
-        let dedicated = document.createElement("p");
-        let area = document.createElement("p");
-        let image = document.createElement("img");
+    let name = document.createElement("h3");
+    let location = document.createElement("p");
+    let dedicated = document.createElement("p");
+    let area = document.createElement("p");
+    let image = document.createElement("img");
 
-        name.textContent = temple.templeName;
-        location.innerHTML = `<strong>Location:</strong> ${temple.location}`;
-        dedicated.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
-        area.innerHTML = `<strong>Size:</strong> ${temple.area.toLocaleString()} sq ft`;
+    name.textContent = temple.templeName;
+    location.innerHTML = `<strong>Location:</strong> ${temple.location}`;
+    dedicated.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
+    area.innerHTML = `<strong>Size:</strong> ${temple.area.toLocaleString()} sq ft`;
 
-        image.setAttribute("src", temple.imageUrl);
-        image.setAttribute("alt", temple.templeName);
-        image.setAttribute("loading", "lazy");
-        image.setAttribute("width", "400");
+    image.setAttribute("src", temple.imageUrl);
+    image.setAttribute("alt", temple.templeName);
+    image.setAttribute("loading", "lazy");
+    image.setAttribute("width", "400");
 
-        card.appendChild(name);
-        card.appendChild(location);
-        card.appendChild(dedicated);
-        card.appendChild(area);
-        card.appendChild(image);
+    card.appendChild(name);
+    card.appendChild(location);
+    card.appendChild(dedicated);
+    card.appendChild(area);
+    card.appendChild(image);
 
-        document.querySelector(".gallery").appendChild(card);
-    });
+    document.querySelector(".gallery").appendChild(card);
+  });
 }
 
 document.querySelector("#home").addEventListener("click", () => {
-    createTempleCards(temples);
+  createTempleCards(temples);
 });
 
 document.querySelector("#old").addEventListener("click", () => {
-    createTempleCards(
-        temples.filter(t => parseInt(t.dedicated) < 1900)
-    );
+  createTempleCards(
+    temples.filter(t => parseInt(t.dedicated) < 1900)
+  );
 });
 
 document.querySelector("#new").addEventListener("click", () => {
-    createTempleCards(
-        temples.filter(t => parseInt(t.dedicated) > 2000)
-    );
+  createTempleCards(
+    temples.filter(t => parseInt(t.dedicated) > 2000)
+  );
 });
 
 document.querySelector("#large").addEventListener("click", () => {
-    createTempleCards(
-        temples.filter(t => t.area > 90000)
-    );
+  createTempleCards(
+    temples.filter(t => t.area > 90000)
+  );
 });
 
 document.querySelector("#small").addEventListener("click", () => {
-    createTempleCards(
-        temples.filter(t => t.area < 10000)
-    );
+  createTempleCards(
+    temples.filter(t => t.area < 10000)
+  );
 });
 
 document.querySelector("#year").textContent =
-    new Date().getFullYear();
+  new Date().getFullYear();
 
 document.querySelector("#lastModified").textContent =
-    `Last Modified: ${document.lastModified}`;
+  `Last Modified: ${document.lastModified}`;
+
+
