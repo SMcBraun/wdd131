@@ -48,7 +48,7 @@ main {
 
 }
 
-.navigation {
+.nav {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -61,7 +61,7 @@ main {
     padding: 0.75rem;
 }
 
-.navigation a:hover {
+nav a:hover {
     background-color: #4b006e;
     color: #fff;
 }
