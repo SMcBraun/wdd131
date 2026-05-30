@@ -1,7 +1,6 @@
 body {
-    font-family: "Roboto", Arila, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     margin: 0;
-
 }
 
 
@@ -23,29 +22,46 @@ main {
     border: 1px solid #ccc;
     padding: 1.5rem;
     text-align: center;
+}
 
-    .gallery h3 {
+.gallery h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-    }
+.gallery p {
+    margin: 0.25rem;
+}
 
-    .gallery p {
-        margin: 0.25rem;
-    }
+.gallery p strong {
+    color: #4b006e;
+    font-variant: small-caps;
+}
 
-    .gallery p strong {
-        color: #4b006e;
-        font-variant: small-caps;
-    }
+.gallery img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem auto;
+    box-shadow: 0 0 15px #555;
 
-    .gallery img {
+}
 
-        width: 100%;
-        max-width: 400px;
-        height: 250px;
-        object-fit: cover;
-        margin-top: 1rem;
-        box-shadow: 0 0 15px #555;
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
 
-    }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem;
+}
+
+nav a:hover {
+    background-color: #4b006e;
+    color: #fff;
+}

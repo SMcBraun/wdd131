@@ -48,14 +48,14 @@ main {
 
 }
 
-.nav {
+nav {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     text-align: center;
 }
 
-.navigation a {
+.nav a {
     color: #fff;
     text-decoration: none;
     padding: 0.75rem;
