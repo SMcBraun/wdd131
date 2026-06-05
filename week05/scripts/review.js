@@ -6,5 +6,9 @@ localStorage.setItem("reviewCount", reviewCount);
 document.querySelector("#reviewCount").textContent = reviewCount;
 
 document.querySelector("#lastModified").textContent =
-    Last Modified: ${ document.lastModified };
+    Last Modified: + document.lastModified;
+
+
+
+
 

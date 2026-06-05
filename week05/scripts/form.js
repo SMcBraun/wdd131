@@ -28,6 +28,9 @@ const products = [
 
 const productSelect = document.querySelector("#product");
 
+
+console.log(productSelect);
+
 products.forEach(product => {
     const option = document.createElement("option");
     option.value = product.id;
