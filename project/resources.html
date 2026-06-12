@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Resources for adopting, volunteering, donating, and supporting Hawaii animal shelters.">
+    <meta name="author" content="Sina McBraun">
+    <title>Resources</title>
+    <link rel="stylesheet" href="siteplan.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🐾 Hawaii Animal Shelter Dashboard 🐾</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="islands.html">Island Stats</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Get Involved</h2>
+            <p>
+                Learn how you can support animal shelters across Hawaii through volunteering,
+                donating, fostering, or adopting.
+            </p>
+        </section>
+
+        <section>
+            <h3>Volunteer</h3>
+            <p>
+                Many shelters rely on volunteers to help clean spaces, walk dogs, socialize cats,
+                organize supplies, and support adoption events.
+            </p>
+        </section>
+
+        <section>
+            <h3>Donate</h3>
+            <p>
+                Donations help provide food, medical care, bedding, cleaning supplies, and other
+                resources that shelters need every day.
+            </p>
+        </section>
+
+        <section>
+            <h3>Adopt</h3>
+            <p>
+                Adopting an animal provides a loving home while helping local shelters make space
+                for other animals in need.
+            </p>
+        </section>
+
+        <section>
+            <h3>Contact and Support Form</h3>
+
+            <form method="get" action="resources.html">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="island">Island</label>
+                <select id="island" name="island" required>
+                    <option value="">Choose an island</option>
+                    <option value="oahu">Oahu</option>
+                    <option value="maui">Maui</option>
+                    <option value="hawaii">Hawaii Island</option>
+                    <option value="kauai">Kauai</option>
+                    <option value="molokai">Molokai</option>
+                    <option value="lanai">Lanai</option>
+                </select>
+
+                <label for="interest">How would you like to help?</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Choose one</option>
+                    <option value="adopt">Adopt</option>
+                    <option value="volunteer">Volunteer</option>
+                    <option value="donate">Donate</option>
+                    <option value="foster">Foster</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Hawaii Animal Shelter Dashboard | Sina McBraun |
+            <a href="references.html">References</a>
+        </p>
+    </footer>
+
+    <script src="scripts/shelter.js" defer></script>
+
+</body>
+
+</html>
