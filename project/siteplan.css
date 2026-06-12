@@ -64,3 +64,37 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+form {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 500px;
+}
+
+form label {
+    font-weight: 700;
+}
+
+form input,
+form select,
+form textarea,
+{
+width: 100%;
+padding: 0.5rem;
+font-size: 1rem;
+box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: fit-content;
+    padding: 0.6rem 1rem;
+    background-color: #0b7285;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #075866;
+}
