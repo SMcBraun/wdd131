@@ -115,6 +115,30 @@ form input[type="submit"]:hover {
     background-color: #075866;
 }
 
+.adoption-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.adoption-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adoption-gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.adoption-gallery figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
 .thankyou-section {
     position: relative;
     overflow: hidden;
@@ -165,6 +189,10 @@ form input[type="submit"]:hover {
         align-items: center;
     }
 
+    .adoption-gallery {
+        grid-template-columns: 1fr;
+    }
+
     .thankyou-title {
         font-size: 2.25rem;
     }
@@ -176,80 +204,4 @@ form input[type="submit"]:hover {
     .thankyou-message {
         font-size: 1.2rem;
     }
-
-    .adoption-gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-
-    .adoption-gallery figure {
-        margin: 0;
-        text-align: center;
-    }
-
-    .adoption-gallery img {
-        width: 100%;
-        max-width: 400px;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-
-    .adoption-gallery figcaption {
-        margin-top: 0.5rem;
-        font-weight: bold;
-    }
-
-    @media screen and (max-width: 600px) {
-        .adoption-gallery {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    .adoption-gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-
-    .adoption-gallery figure {
-        margin: 0;
-        text-align: center;
-    }
-
-    .adoption-gallery img {
-        width: 100%;
-        max-width: 400px;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-
-    .adoption-gallery figcaption {
-        margin-top: 0.5rem;
-        font-weight: bold;
-    }
-
-    @media screen and (max-width: 600px) {
-        nav ul {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .thankyou-title {
-            font-size: 2.25rem;
-        }
-
-        .flower {
-            font-size: 2.5rem;
-        }
-
-        .thankyou-message {
-            font-size: 1.2rem;
-        }
-
-        .adoption-gallery {
-            grid-template-columns: 1fr;
-        }
-    }
+}
